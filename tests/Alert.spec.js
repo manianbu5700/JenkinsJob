@@ -21,12 +21,12 @@ test('Alert Functionality', async ({ page }) => {
     await page.once("dialog", async (dialog) => {
         console.log("Prompt Alert:", dialog.message())
         console.log("Default prompt:", dialog.defaultValue())
-        await dialog.accept('mani')
+        await dialog.accept('hari')
     })
 
     await page.locator('//button[@onclick="promptbox()"]').click()
 
     const promptmessage = await page.locator('//p[@id="demo1"]')
     const txt = await promptmessage.textContent()
-    await expect(txt).toContain('mani')
+    await expect(txt).toContain('hari')
 })
