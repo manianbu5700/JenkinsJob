@@ -1,0 +1,199 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e5]:
+      - link "image not displaying" [ref=e7] [cursor=pointer]:
+        - /url: http://www.automationtesting.in
+        - img "image not displaying" [ref=e8]
+      - heading "Automation Demo Site" [level=1] [ref=e10]
+    - navigation [ref=e11]:
+      - list [ref=e14]:
+        - listitem [ref=e15]:
+          - link "Home" [ref=e16] [cursor=pointer]:
+            - /url: Index.html
+        - listitem [ref=e17]:
+          - link "Register" [ref=e18] [cursor=pointer]:
+            - /url: Register.html
+        - listitem [ref=e19]:
+          - link "WebTable" [ref=e20] [cursor=pointer]:
+            - /url: WebTable.html
+        - listitem [ref=e21]:
+          - link "SwitchTo" [ref=e22] [cursor=pointer]:
+            - /url: SwitchTo.html
+          - generic [ref=e23]: 
+        - listitem [ref=e24]:
+          - link "Widgets" [ref=e25] [cursor=pointer]:
+            - /url: Widgets.html
+          - generic [ref=e26]: 
+        - listitem [ref=e27]:
+          - link "Interactions" [ref=e28] [cursor=pointer]:
+            - /url: Interactions.html
+          - generic [ref=e29]: 
+        - listitem [ref=e30]:
+          - link "Video" [ref=e31] [cursor=pointer]:
+            - /url: SwitchTo.html
+          - generic [ref=e32]: 
+        - listitem [ref=e33]:
+          - link "WYSIWYG" [ref=e34] [cursor=pointer]:
+            - /url: WYSIWYG.html
+          - generic [ref=e35]: 
+        - listitem [ref=e36]:
+          - link "More" [ref=e37] [cursor=pointer]:
+            - /url: "#"
+          - generic [ref=e38]: 
+        - listitem [ref=e39]:
+          - link "Practice Site" [ref=e40] [cursor=pointer]:
+            - /url: http://practice.automationtesting.in/
+  - generic [ref=e41]:
+    - generic [ref=e45]:
+      - list [ref=e48]:
+        - listitem [ref=e49]:
+          - link "Single Iframe" [ref=e50] [cursor=pointer]:
+            - /url: "#Single"
+        - listitem [ref=e51]:
+          - link "Iframe with in an Iframe" [expanded] [ref=e52]:
+            - /url: "#Multiple"
+      - iframe [active] [ref=e54]: <p>Your browser does not support iframes.</p>:
+        - generic [ref=f2e4]:
+          - heading "Nested iFrames" [level=5] [ref=f2e5]
+          - iframe [active] [ref=f2e6]: <p>Your browser does not support iframes.</p>:
+            - generic [ref=f3e3]:
+              - heading "iFrame Demo" [level=5] [ref=f3e4]
+              - textbox [active] [ref=f3e7]: Harish
+    - generic [ref=e56]:
+      - insertion [ref=e59]:
+        - generic [ref=e61]:
+          - generic "These are topics related to the article that might interest you" [ref=e62]: Discover more
+          - link "Browser automation extensions" [ref=e63] [cursor=pointer]:
+            - img [ref=e65]
+            - text: Browser automation extensions
+          - link "Test Automation Platform" [ref=e67] [cursor=pointer]:
+            - img [ref=e69]
+            - text: Test Automation Platform
+          - link "Web hosting services" [ref=e71] [cursor=pointer]:
+            - img [ref=e73]
+            - text: Web hosting services
+          - link "Automation Demo Site" [ref=e75] [cursor=pointer]:
+            - img [ref=e77]
+            - text: Automation Demo Site
+          - link "Nested Iframe Solutions" [ref=e79] [cursor=pointer]:
+            - img [ref=e81]
+            - text: Nested Iframe Solutions
+          - link "Iframe Testing Guide" [ref=e83] [cursor=pointer]:
+            - img [ref=e85]
+            - text: Iframe Testing Guide
+          - link "Agile methodology training" [ref=e87] [cursor=pointer]:
+            - img [ref=e89]
+            - text: Agile methodology training
+          - link "Manual Testing Techniques" [ref=e91] [cursor=pointer]:
+            - img [ref=e93]
+            - text: Manual Testing Techniques
+          - link "Test automation" [ref=e95] [cursor=pointer]:
+            - img [ref=e97]
+            - text: Test automation
+          - link "Cloud testing platforms" [ref=e99] [cursor=pointer]:
+            - img [ref=e101]
+            - text: Cloud testing platforms
+      - insertion [ref=e105]:
+        - generic [ref=e107]:
+          - generic "These are topics related to the article that might interest you" [ref=e108]: Discover more
+          - link "Programming books" [ref=e109] [cursor=pointer]:
+            - img [ref=e111]
+            - text: Programming books
+          - link "Frontend frameworks" [ref=e113] [cursor=pointer]:
+            - img [ref=e115]
+            - text: Frontend frameworks
+          - link "UI UX design tools" [ref=e117] [cursor=pointer]:
+            - img [ref=e119]
+            - text: UI UX design tools
+          - link "Nested Iframe Solutions" [ref=e121] [cursor=pointer]:
+            - img [ref=e123]
+            - text: Nested Iframe Solutions
+          - link "Automation Demo Site" [ref=e125] [cursor=pointer]:
+            - img [ref=e127]
+            - text: Automation Demo Site
+          - link "Version control systems" [ref=e129] [cursor=pointer]:
+            - img [ref=e131]
+            - text: Version control systems
+          - link "Frame Testing Tutorial" [ref=e133] [cursor=pointer]:
+            - img [ref=e135]
+            - text: Frame Testing Tutorial
+          - link "Automation testing tools" [ref=e137] [cursor=pointer]:
+            - img [ref=e139]
+            - text: Automation testing tools
+          - link "Test automation" [ref=e141] [cursor=pointer]:
+            - img [ref=e143]
+            - text: Test automation
+          - link "Browser automation extensions" [ref=e145] [cursor=pointer]:
+            - img [ref=e147]
+            - text: Browser automation extensions
+      - insertion [ref=e151]:
+        - generic [ref=e153]:
+          - generic "These are topics related to the article that might interest you" [ref=e154]: Discover more
+          - link "Development Tools" [ref=e155] [cursor=pointer]:
+            - img [ref=e157]
+            - text: Development Tools
+          - link "Software" [ref=e159] [cursor=pointer]:
+            - img [ref=e161]
+            - text: Software
+          - link "Web Browsers" [ref=e163] [cursor=pointer]:
+            - img [ref=e165]
+            - text: Web Browsers
+      - insertion [ref=e169]:
+        - generic [ref=e171]:
+          - generic "These are topics related to the article that might interest you" [ref=e172]: Discover more
+          - link "Test automation frameworks" [ref=e173] [cursor=pointer]:
+            - img [ref=e175]
+            - text: Test automation frameworks
+          - link "Automation Consulting Service" [ref=e177] [cursor=pointer]:
+            - img [ref=e179]
+            - text: Automation Consulting Service
+          - link "Project management software" [ref=e181] [cursor=pointer]:
+            - img [ref=e183]
+            - text: Project management software
+          - link "Test automation" [ref=e185] [cursor=pointer]:
+            - img [ref=e187]
+            - text: Test automation
+          - link "Selenium WebDriver Support" [ref=e189] [cursor=pointer]:
+            - img [ref=e191]
+            - text: Selenium WebDriver Support
+          - link "Automation Demo Site" [ref=e193] [cursor=pointer]:
+            - img [ref=e195]
+            - text: Automation Demo Site
+          - link "Website Development Services" [ref=e197] [cursor=pointer]:
+            - img [ref=e199]
+            - text: Website Development Services
+          - link "Version control systems" [ref=e201] [cursor=pointer]:
+            - img [ref=e203]
+            - text: Version control systems
+          - link "Iframe Compatibility Checker" [ref=e205] [cursor=pointer]:
+            - img [ref=e207]
+            - text: Iframe Compatibility Checker
+          - link "WebDriver training" [ref=e209] [cursor=pointer]:
+            - img [ref=e211]
+            - text: WebDriver training
+      - generic [ref=e216]:
+        - generic [ref=e217]:
+          - text: "\"@ 2016\""
+          - link "Automation Testing" [ref=e218] [cursor=pointer]:
+            - /url: "#"
+          - text: "\"All Rights Reserved.\""
+        - generic [ref=e219]:
+          - link "" [ref=e220] [cursor=pointer]:
+            - /url: https://www.facebook.com/automationtesting2016/
+            - generic [ref=e221]: 
+          - link "" [ref=e222] [cursor=pointer]:
+            - /url: https://twitter.com/krishnasakinala
+            - generic [ref=e223]: 
+          - link "" [ref=e224] [cursor=pointer]:
+            - /url: https://www.linkedin.com/nhome/?trk=hb_signin
+            - generic [ref=e225]: 
+          - link "" [ref=e226] [cursor=pointer]:
+            - /url: https://plus.google.com/105286300926085335367
+            - generic [ref=e227]: 
+          - link "" [ref=e228] [cursor=pointer]:
+            - /url: https://www.youtube.com/channel/UCmQRa3pWM9zsB474URz8ESg
+            - generic [ref=e229]: 
+```

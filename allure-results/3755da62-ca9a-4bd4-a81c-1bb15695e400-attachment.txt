@@ -1,0 +1,4 @@
+Alert Handled: I am an alert box!
+Confirm Alert : Press a Button !
+Prompt Alert: Please enter your name
+Default prompt: Automation Testing user
